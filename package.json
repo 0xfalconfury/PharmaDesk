@@ -1,0 +1,23 @@
+{
+  "name": "pharmadesk",
+  "version": "2.0.0",
+  "description": "Pharmacy inventory, sales and reporting system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "create-admin": "node create-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1",
+    "pdfkit": "^0.15.1"
+  },
+  "devDependencies": { "nodemon": "^3.1.7" }
+}
